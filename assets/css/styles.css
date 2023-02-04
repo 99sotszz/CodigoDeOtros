@@ -80,7 +80,7 @@ a.button, button, input[type="button"] {
   outline-color: var(--pink);
 }
 
-fieldset {
+.fieldset {
   border: 1px solid black;
 }
 
@@ -94,23 +94,13 @@ input:not([type="checkbox"]):not([type="radio"]), textarea, select {
   border: 1px solid red;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 { /* acomodar los h */
   color: white;
   margin-top: 0;
   line-height: 1;
   text-shadow: var(--text-shadow);
 }
-.wrapper h1,
-.wrapper h2,
-.wrapper h3,
-.wrapper h4,
-.wrapper h5,
-.wrapper h6 {
+.wrapper h1,.wrapper h2,.wrapper h3,.wrapper h4,.wrapper h5,wrapper h6 { /* acomodar los wraper*/
   color: var(--black);
   text-shadow: none;
 }
